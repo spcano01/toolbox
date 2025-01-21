@@ -1,12 +1,12 @@
 { lib, ... }:
 rec {
   user = {
-    name = "ghilston";
-    fullName = "Greg Hilston";
-    email = "Gregory.Hilston@gmail.com";
+    name = "sonny";
+    fullName = "Sonny Cano";
+    email = "spcano01@gmail.com";
     packages = {
-      terminal = "alacritty";
-      editor = "nvim";
+      terminal = "wezterm";
+      editor = "nano";
       shell = "zsh"; 
     };
   };
@@ -19,7 +19,7 @@ rec {
   };
 
   system = {
-    timeZone = "America/New_York";
+    timeZone = "America/Chicago";
     locale = "en_US.UTF-8";
     stateVersion = "24.05";
   };
