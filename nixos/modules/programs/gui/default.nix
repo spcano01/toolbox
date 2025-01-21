@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./alacritty
-    ./firefox
+    # ./alacritty
+    # ./firefox
     ./vscode
   ];
 }
