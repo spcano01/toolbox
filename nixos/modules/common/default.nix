@@ -86,35 +86,37 @@
     systemPackages = with pkgs; [
       bat
       zsh
-      tmux
-      file
+      eza
+      # go
+      # tmux
+      # file
       git
-      htop
+      # htop
       jq
       rsync
       tldr
-      neovim
-      vimPlugins.vim-plug
+      # neovim
+      # vimPlugins.vim-plug
       unzip
       wget
       curl
       zip
-      neofetch
-      tree
-      ncdu
-      just
-      gcc
-      lazygit
-      ripgrep
-      fd
+      # neofetch
+      # tree
+      # ncdu
+      # just
+      # gcc
+      # lazygit
+      # ripgrep
+      # fd
       python3
-      pandoc
-      xclip
-      gnumake
+      # pandoc
+      # xclip
+      # gnumake
     ];
 
     sessionVariables = {
-      EDITOR = "nvim";
+      EDITOR = "nano";
     };
   };
 
