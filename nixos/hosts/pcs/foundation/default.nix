@@ -5,7 +5,7 @@
     ../../../modules/common
   ];
 
-  networking.hostName = "NixOS";
+  networking.hostName = "nixos";
 
   # Ensure both users exist during transition
   users.users = {
