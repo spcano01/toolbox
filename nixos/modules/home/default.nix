@@ -23,19 +23,19 @@
     username = "${vars.user.name}";
     homeDirectory = "/home/${vars.user.name}";
     packages = with pkgs; [
-      chromium
-      dmenu
-      ncdu
+      # chromium
+      # dmenu
+      # ncdu
       obsidian
       ollama
-      ripgrep
-      vlc
+      # ripgrep
+      # vlc
       vscode
-      hugo
-      texstudio
-      godot_4
+      # hugo
+      # texstudio
+      # godot_4
       go
-      duckdb
+      # duckdb
 
       # fonts
 <<<<<<< Updated upstream
@@ -45,14 +45,14 @@
       # nerd-fonts.jetbrains-mono
       # jetbrains-mono
 
-      inputs.claude-desktop.packages.${system}.claude-desktop
+      # inputs.claude-desktop.packages.${system}.claude-desktop
 >>>>>>> Stashed changes
     ] ++ (if pkgs.stdenv.hostPlatform.system != "aarch64-linux" then [
       # ARM does not support every package, so only install these if we're not on an ARM basd architecture
       bitwarden
-      discord
-      slack
-      spotify
+      # discord
+      # slack
+      # spotify
     ] else []);
   };
 
