@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 let
-  user = "ghilston"; # TODO have this get passed in somehow
+  user = "spcano01"; # TODO have this get passed in somehow
 in
 {
   # hardware.graphics = {
