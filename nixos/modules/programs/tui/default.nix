@@ -3,7 +3,7 @@
 {
   imports = [
     ./git
-    ./neovim
+    # ./neovim
     ./zsh
   ];
 }
